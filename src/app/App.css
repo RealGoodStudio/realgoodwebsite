@@ -1,0 +1,47 @@
+.App {
+  display: flex;
+  height: 100vh; 
+  /* TODO figure out why 100% doesn't work */
+  flex-direction: row;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.logo-container {
+  font-size: 2em;
+  color: white;
+}
+
+.App-title {
+  font-size: 2em;
+  line-height: 0%;
+}
+
+.App-subtitle {
+  font-family: 'Gelion-Light';
+  font-size: 2em;
+  line-height: 0%;
+}
+
+.text-container {
+  margin: 10%;
+}
+
+.main-left {
+  align-items: center;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.main-right {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
