@@ -1,5 +1,25 @@
+@font-face {
+  font-family: 'Gelion';
+  src: url('./assets/gelion/Gelion-Medium.otf');
+}
+
+@font-face {
+  font-family: 'Gelion-Light';
+  src: url('./assets/gelion/Gelion-Light.otf');
+}
+
+@font-face {
+  font-family: 'Gelion-Thin';
+  src: url('./assets/gelion/Gelion-Thin.otf');
+}
+
+@font-face {
+  font-family: 'Gelion-Bold';
+  src: url('./assets/gelion/Gelion-Bold.otf');
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Gelion';
 }
