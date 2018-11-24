@@ -1,11 +1,15 @@
 .App {
   display: flex;
-  height: 100vh; 
-  /* TODO figure out why 100% doesn't work */
-  flex-direction: row;
+  min-height: 100vh;
+  background-color: #FFFEF2
 }
 
-.App-logo {
+.Routes {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
@@ -44,4 +48,4 @@
   display: flex;
   width: 50%;
   justify-content: center;
-}
+} */
