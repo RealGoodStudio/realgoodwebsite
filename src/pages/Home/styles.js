@@ -6,6 +6,10 @@ const styles = {
     width: '35%',
     flexDirection: 'column',
     textAlign: 'center',
+    // eslint-disable-next-line quotes
+    [`@media(max-width: 800x)`]: {
+      width: '75%',
+    },
   },
   container: {
     display: 'flex',
@@ -13,8 +17,8 @@ const styles = {
     alignItems: 'center',
     height: '100%',
   },
-  logo: {
-    width: '40%'
+  icon: {
+    width: '180px',
   },
   button: {
     backgroundColor: '#000',
@@ -33,7 +37,7 @@ const styles = {
     fontFamily: 'Gelion',
   },
   link: {
-    // textDecoration: 'none',
+    color: '#000',
     '&:visited': {
       color: '#000',
     },
