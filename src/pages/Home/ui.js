@@ -4,7 +4,8 @@ import {
   P,
   Span,
   A,
-  Img
+  Img,
+  H2
 } from 'glamorous';
 import logo from './logo.svg';
 import styles from './styles';
@@ -14,9 +15,7 @@ export class HomeUI extends Component {
     return (
       <Div {...styles.container}>
         <Div {...styles.content}>
-          <Div {...styles.logo}>
-            <Img src={logo} alt="logo" />
-          </Div>
+          <Img {...styles.icon} src={logo} alt="logo" />
           <Div {...styles.bio}>
             <P>
               <Span {...styles.bold}>Real Good </Span>
@@ -26,13 +25,13 @@ export class HomeUI extends Component {
             Now accepting freelance, contract, & pro-bono work.
             </P>
           </Div>
-          <Div {...styles.signature}>
-            <h2>-- signed</h2>
-            <h2>
+          <Div>
+            <H2>-- signed</H2>
+            <H2>
               <A href="https://www.instagram.com/vincentnoob/" {...styles.link}>@vincentnoob</A>
               <Span>, </Span>
               <A href="https://www.instagram.com/amhid.kahuna/" {...styles.link}>@amhid_kahuna</A>
-            </h2>
+            </H2>
           </Div>
         </Div>
       </Div>

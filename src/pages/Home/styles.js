@@ -3,7 +3,6 @@ const styles = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    width: '35%',
     flexDirection: 'column',
     textAlign: 'center',
   },
@@ -12,9 +11,10 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
     height: '100%',
+    padding: '0% 4%',
   },
-  logo: {
-    width: '40%'
+  icon: {
+    width: '180px',
   },
   button: {
     backgroundColor: '#000',
@@ -33,7 +33,7 @@ const styles = {
     fontFamily: 'Gelion',
   },
   link: {
-    // textDecoration: 'none',
+    color: '#000',
     '&:visited': {
       color: '#000',
     },
